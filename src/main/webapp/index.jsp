@@ -8,7 +8,8 @@
 	<h1>Avatar Generator</h1>
 	<form action="http://localhost:8080/avatar/gerar" method="post">
 		<label for="name">Informe seu nome:</label><br> 
-		<input type="text" id="name" name="name"><br> 
+		<input type="text" id="name" name="name"><br> <br>
+		<label>Escolha o tipo de avatar:</label><br>
 		<input type="radio" id="robo" name="type" value="set3">
 		<label for="robo">Robo</label><br>
         <input type="radio" id="gato" name="type" value="set4">
